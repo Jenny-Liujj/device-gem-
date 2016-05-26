@@ -1,0 +1,2 @@
+module UserwaysHelper
+end

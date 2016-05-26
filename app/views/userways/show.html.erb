@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @userway.name %>
+</p>
+
+<p>
+  <strong>Password:</strong>
+  <%= @userway.password %>
+</p>
+
+<%= link_to 'Edit', edit_userway_path(@userway) %> |
+<%= link_to 'Back', userways_path %>
